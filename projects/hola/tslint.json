@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "vadLibr",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "vad-libr",
+      "kebab-case"
+    ]
+  }
+}
